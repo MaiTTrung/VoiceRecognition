@@ -1,0 +1,39 @@
+
+{"commander": [
+                {
+                    "command" : "hello",
+                    "response" : ["Hello nice to meet you, Trung "],
+                    "code" : " "
+                },
+                {
+                    "command": "bye",
+                    "response": "when i see you again, when i see you again! ",
+                    "code": " "
+                },
+                {
+                    "command": "time",
+                    "response": "It about",
+                    "code" : "executor.return_time()"
+                },
+                {
+                    "command": "date",
+                    "response": "",
+                    "code" : "executor.return_date()"
+                },
+                {
+                    "command": "game",
+                    "response": "Have a nice game sir",
+                    "code" : "executor.play_game()"
+                },
+                {
+                    "command": "music",
+                    "response": "Playing music",
+                    "code" : "executor.play_music()"
+                },
+                {
+                    "command": "code",
+                    "response": "Opening VSCode",
+                    "code" : "executor.play_game()"
+                }
+
+]}
